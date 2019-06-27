@@ -1,5 +1,10 @@
 from setup import *
 
+def change_scene(scene_arg):
+    switch = {
+        0: "Main Menu"
+    }
+
 def greet():
     narrator = character("Mysterious Voice", "GOD", 999999, 100, ({}), ({}), "GREET")
 
@@ -36,4 +41,6 @@ def main_menu():
 
     while response.upper() != "N" or response.upper() != "L":
         if response.upper() == "N":
+            print("Starting new game...")
+
 
