@@ -3,6 +3,7 @@ from setup import *
 def change_scene(scene_arg):
     switch = {
         0: "Main Menu"
+        1: "New Game"
     }
 
 def greet():
